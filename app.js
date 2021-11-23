@@ -3,7 +3,8 @@
     
 angular.module('Angular App', [])
 
-.controller('FirstController', function(){
+.controller('FirstController', function ($scope){
+    $scope.name = 'Themis';
 
 });
 })();
